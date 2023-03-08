@@ -1,4 +1,4 @@
-![Portfolio website project](https://github.com/rostamali/portfolio-frontend/blob/main/public/portfolio-website.png 'Portfolio website project')
+![My Forum website project](https://github.com/rostamali/my-forum/blob/main/public/my-forum-website-preview.png 'My Forum website project')
 
 </br>
 
