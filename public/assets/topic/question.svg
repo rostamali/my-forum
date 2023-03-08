@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 111" width="111" height="111">
+	<title>Vector Smart Object1-ai</title>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { fill: none;stroke: #666f74;stroke-width: 3 } 
+		.s2 { fill: none;stroke: #666f74;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3 } 
+		.s3 { fill: #b9c2c6 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m105.5 2c2.2 0 3.5 1.3 3.5 3.5v82c0 2.2-1.3 4.5-3.5 4.5h-9.5c-2.2 0-4.8 1.4-5.8 3.3l-5.4 10.4c-1 2-2.6 2.1-3.6 0.1l-5.4-10.5c-1-1.9-3.6-3.3-5.8-3.3h-64.5c-2.2 0-4.5-2.3-4.5-4.5v-82c0-2.2 2.3-3.5 4.5-3.5z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m105.5 1.5c2.2 0 4 1.8 4 4v82c0 2.2-1.8 4-4 4h-9.5c-2.2 0-4.8 1.6-5.8 3.6l-5.4 10.6c-1 1.9-2.6 1.9-3.6 0l-5.4-10.6c-1-2-3.6-3.6-5.8-3.6h-64.5c-2.2 0-4-1.8-4-4v-82c0-2.2 1.8-4 4-4z"/>
+		</g>
+		<path id="&lt;Path&gt;" class="s2" d="m66 109.5h35"/>
+		<path id="&lt;Path&gt;" class="s2" d="m57 109.5h-28"/>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Compound Path&gt;" class="s3" d="m52.4 54.2q0-2 0.7-3.7 0.7-1.6 1.8-2.8 1-1.2 2.8-2.8 2.1-2 3.2-3.5 1-1.4 1-3.3 0-5.3-5.5-5.3-2.7 0-4 1.6-1.4 1.6-1.9 4.3l-6-1.7q0.4-4.1 3.7-6.7 3.4-2.6 8.5-2.6 5.3 0 8.7 2.8 3.4 2.7 3.4 7.4 0 2.5-0.8 4.3-0.8 1.8-1.9 2.9-1.1 1.1-3 2.6-2.4 1.8-3.6 3.3-1.1 1.6-1.1 4v1.1h-6zm-1.1 10.2v-0.8q0-3.8 3.8-3.8h0.7q3.8 0 3.8 3.8v0.8q0 3.8-3.8 3.8h-0.7q-3.8 0-3.8-3.8z"/>
+		</g>
+	</g>
+</svg>
