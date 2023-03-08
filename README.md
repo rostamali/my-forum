@@ -2,9 +2,9 @@
 
 </br>
 
-# Welcome to Portfolio Blog Website
+# Welcome to My Forum Website
 
-### This portfolio blog website is created with some of the latest and greatest technologies to create a robust and user-friendly website.
+<p>This portfolio blog website is created with some of the latest and greatest technologies to create a robust and user-friendly website.</p>
 
 </br>
 
@@ -12,18 +12,18 @@
 
 </br>
 
--   #### Next.js: With [Next.js](https://nextjs.org/), we are able to provide our users with fast-loading pages and a seamless browsing experience.
--   #### TypeScript: [TypeScript](https://www.typescriptlang.org/) ensures that our code is easy to read, maintain, and debug.
+-   **Next.js:** With [Next.js](https://nextjs.org/), we are able to provide our users with fast-loading pages and a seamless browsing experience.
+-   **TypeScript:** [TypeScript](https://www.typescriptlang.org/) ensures that our code is easy to read, maintain, and debug.
 
--   #### React Query: [React Query](https://tanstack.com/query/latest) makes it easy for us to handle server state management and caching, while [Axios](https://axios-http.com/docs/intro) enables us to make API calls and fetch data from our database.
+-   **React Query:** [React Query](https://tanstack.com/query/latest) makes it easy for us to handle server state management and caching, while [Axios](https://axios-http.com/docs/intro) enables us to make API calls and fetch data from our database.
 
--   #### Tailwind CSS: I have also utilized [Tailwind CSS](https://tailwindcss.com/) and [Flowbite](https://flowbite-react.com/) to create beautiful and responsive user interfaces, making our website easy to navigate and aesthetically pleasing.
+-   **Tailwind CSS:** I have also utilized [Tailwind CSS](https://tailwindcss.com/) and [Flowbite](https://flowbite-react.com/) to create beautiful and responsive user interfaces, making our website easy to navigate and aesthetically pleasing.
 
--   #### React Hook Form: [React Hook Form](https://react-hook-form.com/) is a powerful library that allows you to easily build and validate forms in React. We validate the form with [Yup](https://www.npmjs.com/package/yup) schema validation library.
+-   **React Hook Form:** [React Hook Form](https://react-hook-form.com/) is a powerful library that allows you to easily build and validate forms in React. We validate the form with [Yup](https://www.npmjs.com/package/yup) schema validation library.
 
--   #### Next Themes: We managed the website theme dark/light using Next Themes. Full website is design according to both dark and light theme.
+-   **Next Themes:** We managed the website theme dark/light using Next Themes. Full website is design according to both dark and light theme.
 
--   #### Toastify: We used [React-Toastify](https://www.npmjs.com/package/react-toastify) to add notifications on this website.
+-   **Toastify:** We used [React-Toastify](https://www.npmjs.com/package/react-toastify) to add notifications on this website.
 
 </br>
 
