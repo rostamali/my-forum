@@ -4,7 +4,7 @@
 
 # Welcome to My Forum Website
 
-<p>This portfolio blog website is created with some of the latest and greatest technologies to create a robust and user-friendly website.</p>
+<p>Welcome to our My Forum website, where you can create an account and join in on the conversation with other users. By creating an account, you can create new threads, comment on existing threads, and update your user profile to share more about yourself with the community.</p>
 
 </br>
 
@@ -31,15 +31,13 @@
 
 </br>
 
--   #### Next connect: We manage our API routes using Next Connect. With [Next Connect](https://github.com/hoangvvo/next-connect), we can easily add new functionality to your application's server, without having to write low-level code or deal with complex configurations.
+-   **Next connect:** We manage our API routes using Next Connect. With [Next Connect](https://github.com/hoangvvo/next-connect), we can easily add new functionality to your application's server, without having to write low-level code or deal with complex configurations.
 
--   #### Mongoose: With [Mongoose](https://mongoosejs.com/), you create schemas for our data, define validation rules, and perform CRUD operations on our [MongoDB](https://www.mongodb.com/) database.
+-   **Mongoose:** With [Mongoose](https://mongoosejs.com/), you create schemas for our data, define validation rules, and perform CRUD operations on our [MongoDB](https://www.mongodb.com/) database.
 
--   #### Multer: For uploading images, we used [Multer](https://www.npmjs.com/package/multer) middleware package and used [Jimp](https://www.npmjs.com/package/jimp) for optimizing image size.
+-   **JWT:** For Authenticating and Authorization, we used [JSON Web Token](https://jwt.io/) to save user data in cookies.
 
--   #### JWT: For Authenticating and Authorization, we used [JSON Web Token](https://jwt.io/) to save user data in cookies.
-
--   #### Nodemailer: With [Nodemailer](https://nodemailer.com/about/), we can easily send website Contact form & Booking Form data from our Portfolio application using a variety of email services, including SMTP, SendGrid, and Gmail.
+-   **Nodemailer:** With [Nodemailer](https://nodemailer.com/about/), user can easily get forget or reset password link through their email.
 
 </br>
 
@@ -51,37 +49,34 @@
 
 </br>
 
-#### From the website admin panel admin can create different kind of user role like Admin or User using new email and Password. We also manage Website Frontend and API routes protected so that normal user or visitor can't get all the access.
+-   Create a new user account with Username, email, Password
+-   User can singin by using user email and password with JWT and cookie
+-   User have several role and according to role "user" can only access to user dashboard and "admin" have their own dashboard also.
+-   According to user role we also managed some protected api route. Frontend also have some protected routes.
+-   User can forget ans reset password
 
 </br>
 
-#### For user authentication we used JWT token and cookies to manage user authentication. Logged in user can update his/her information from the website dashboard.
+### **# Forum Functonality**
 
 </br>
 
-### **# Blog Functonality**
+-   **Create Thread:** With React Hook Form and React Draft Editor validation, user can easily create thread posts with a rich text editor.
 
-</br>
+-   **Deleted Threrad:** If a user wants to permanently delete a thread, there have a "Delete" button that permanently removes the thread from the database.
 
--   #### **Create Blog:** With React Hook Form and React Draft Editor validation, admin can easily create blog posts with a rich text editor.
+-   **Create Category:** To organize thread posts, we provide admins with the ability to create categories. In "Category" Page have a form to add a new category.
 
--   #### **Update Blog:** If a user wants to make changes to a blog post, There have an edit button that opens the post in the same form used to create the post, allowing the user to make changes and save the updated post.
--   #### **Trash Blog:** Once a blog post has been created, uadmin can trash the post if they no longer want it to be visible on the site.
--   #### **Restore Blog:** If a admin has accidentally deleted a blog post, admin can restore the post by clicking "Restore" button to each post in the trash page.
--   #### **Deleted Blog:** If a admin wants to permanently delete a post, there have a "Delete" button that permanently removes the post from the database.
+-   **Delete Category:** Admin can also delete the category permanently.
 
--   #### **Create Category:** To organize blog posts, we provide admins with the ability to create categories. In "Category" Page have a form to add a new category.
-
--   #### **Update Category:** If a admin wants to make changes to a category, that can be done also clicking on "Edit" button from the "Category" Page.
-
--   #### **Delete Category:** Admin can also delete the category permanently. All the post of that deleted category will be trasnfer into **"Uncategorized"** category.
+As an admin of our forum website, we have certain tools and capabilities to help manage and moderate the community. One of these tools is the ability to disable a user account if we find that they are violating our community guidelines or behaving inappropriately.
 
 </br>
 
 ### **# Website Preview On YouTube**
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/nlxz1OO_u7o/0.jpg)](http://www.youtube.com/watch?v=nlxz1OO_u7o)
+[![My Forum Website preview](http://img.youtube.com/vi/SrFEl_XWhoE/0.jpg)](http://www.youtube.com/watch?v=SrFEl_XWhoE)
 
 </br>
 
-## That's all for now. Thanks a lot for visiting my Portfolio Blog website project.
+## That's all for now. Thanks a lot for visiting My Forum website project.
