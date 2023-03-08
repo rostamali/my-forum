@@ -7,6 +7,7 @@ import { useCreateData } from '@/hooks/useApi';
 import * as Yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import ButtonLoader from '@/component/common/shared/ButtonLoader';
+import { ToastContainer } from 'react-toastify';
 
 const ForgotPassword = () => {
 	const forgotValidation = Yup.object().shape({
@@ -93,6 +94,18 @@ const ForgotPassword = () => {
 					</div>
 				</div>
 			</section>
+			<ToastContainer
+				position="bottom-center"
+				autoClose={5000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+				theme="colored"
+			/>
 		</>
 	);
 };

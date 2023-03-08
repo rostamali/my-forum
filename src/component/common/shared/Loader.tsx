@@ -3,7 +3,7 @@ import { Spinner } from 'flowbite-react';
 const Loader = () => {
 	return (
 		<>
-			<div className="loader bg-[#F8F9FA] h-[400px]">
+			<div className="loader bg-[#F8F9FA] h-screen">
 				<div className="container h-full">
 					<div className="flex items-center justify-center h-full">
 						<Spinner aria-label="Spinner button example" />

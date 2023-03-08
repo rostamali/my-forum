@@ -1,9 +1,9 @@
 import AdminPageTitle from '@/component/common/admin/AdminPageTitle';
 import AdminThread from '@/component/common/admin/AdminThread';
 import CustomPagination from '@/component/common/shared/CustomPagination';
+import Spinner from '@/component/common/shared/Spinner';
 import AdminAuthLayout from '@/component/layouts/AdminAuthLayout';
 import { useFetchData } from '@/hooks/useApi';
-import { Spinner } from 'flowbite-react';
 import Head from 'next/head';
 import React, { ReactElement } from 'react';
 import { useState } from 'react';
@@ -30,10 +30,7 @@ const Threads = () => {
 				/>
 			</Head>
 			{isLoading ? (
-				<div className="flex items-center gap-3">
-					<Spinner color="info" className="!text-[#0e0e2354]" />
-					<span>Loading...</span>
-				</div>
+				<Spinner />
 			) : thread.status === 'success' ? (
 				<section id="threads">
 					<div className="mb-6">

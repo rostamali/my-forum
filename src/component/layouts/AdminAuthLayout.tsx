@@ -4,6 +4,7 @@ import Spinner from '../common/shared/Spinner';
 import DrawerMenu from '../common/admin/DrawerMenu';
 import AdminHeader from '../common/admin/AdminHeader';
 import Login from 'src/pages/login';
+import Loader from '../common/shared/Loader';
 
 const AdminAuthLayout = ({ children }: any) => {
 	const [open, setOpen] = useState<boolean>(false);
@@ -41,9 +42,7 @@ const AdminAuthLayout = ({ children }: any) => {
 					<Login />
 				)
 			) : (
-				<div className="flex items-center justify-center h-screen bg-[#EAEDF7]">
-					<Spinner />
-				</div>
+				<Loader />
 			)}
 		</>
 	);

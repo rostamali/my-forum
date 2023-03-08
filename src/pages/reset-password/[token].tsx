@@ -10,6 +10,7 @@ import { NextPageContext } from 'next';
 import { useCreateData } from '@/hooks/useApi';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { ToastContainer } from 'react-toastify';
 
 const ResetPassword = ({ token }: { token: string }) => {
 	const router = useRouter();
@@ -141,6 +142,18 @@ const ResetPassword = ({ token }: { token: string }) => {
 					</div>
 				</div>
 			</div>
+			<ToastContainer
+				position="bottom-center"
+				autoClose={5000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+				theme="colored"
+			/>
 		</>
 	);
 };

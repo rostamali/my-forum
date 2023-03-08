@@ -9,6 +9,7 @@ import Link from 'next/link';
 import CustomPagination from '@/component/common/shared/CustomPagination';
 import { BiTrash } from 'react-icons/bi';
 import { handleDeleteConfirm } from '@/utils/confirmation';
+import Spinner from '@/component/common/shared/Spinner';
 
 const Replies = () => {
 	const [page, setPage] = useState(1);
@@ -42,7 +43,7 @@ const Replies = () => {
 				/>
 			</Head>
 			{isLoading ? (
-				<h2>Loading.........</h2>
+				<Spinner />
 			) : (
 				<section id="replies">
 					<AdminPageTitle

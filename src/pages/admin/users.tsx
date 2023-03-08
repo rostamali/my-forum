@@ -3,11 +3,12 @@ import ThreadCard from '@/component/common/shared/ThreadCard';
 import UserCard from '@/component/common/admin/UserCard';
 import AdminAuthLayout from '@/component/layouts/AdminAuthLayout';
 import { useFetchData } from '@/hooks/useApi';
-import { Spinner, Tabs, TabsRef } from 'flowbite-react';
+import { Tabs, TabsRef } from 'flowbite-react';
 import Head from 'next/head';
 import { ReactElement, useRef, useState } from 'react';
 import { BiPlus } from 'react-icons/bi';
 import UserForm from '@/component/common/admin/UserForm';
+import Spinner from '@/component/common/shared/Spinner';
 
 const Users = () => {
 	const [show, setShow] = useState(false);
@@ -34,10 +35,7 @@ const Users = () => {
 				/>
 			</Head>
 			{isLoading ? (
-				<div className="flex items-center gap-3">
-					<Spinner color="info" className="!text-[#0e0e2354]" />
-					<span>Loading...</span>
-				</div>
+				<Spinner />
 			) : (
 				<section id="users">
 					<div className="mb-6">

@@ -8,6 +8,7 @@ import Head from 'next/head';
 import { useFetchData } from '@/hooks/useApi';
 import Link from 'next/link';
 import CustomPagination from '@/component/common/shared/CustomPagination';
+import Spinner from '@/component/common/shared/Spinner';
 const CategoryForm = dynamic(
 	() => import('@/component/common/admin/CategoryForm'),
 	{
@@ -46,7 +47,7 @@ const Categories = () => {
 				/>
 			</Head>
 			{isLoading ? (
-				<h4>Loading</h4>
+				<Spinner />
 			) : categories.status === 'success' ? (
 				<section id="categories">
 					<div className="flex items-center justify-between mb-3">

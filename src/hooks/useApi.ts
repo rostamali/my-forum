@@ -1,6 +1,7 @@
 import ApiService from 'src/HttpService/ApiService';
 import { toast } from 'react-toastify';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const useFetchData = (url: string, key: string[], page: number) => {
 	return useQuery([...key, page], () => ApiService.getAll(url), {

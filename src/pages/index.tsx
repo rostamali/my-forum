@@ -27,9 +27,7 @@ const Home = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			{isLoading ? (
-				<div className="absolute w-full top-0 left-0 right-0 z-[99] h-screen bg-[#F8F9FA] flex items-center justify-center">
-					<Loader />
-				</div>
+				<Loader />
 			) : data.status === 'success' ? (
 				<section id="home-thread" className="bg-[#F8F9FA] pt-6 pb-12">
 					<div className="container mx-auto">
